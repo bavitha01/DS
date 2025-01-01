@@ -63,10 +63,15 @@ You can find the original sheet here: [Striver's SDE Sheet on Take U Forward](ht
 ---
 
 ## 🚀 How to Use
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/bavitha01/dsa-sheet.git
-2. Navigate to a topic folder (e.g., 1.Arrays).
+1. To clone this repository to your local machine, use the following command:
+
+```
+git clone https://github.com/bavitha01/DS.git
+```
+2. This will clone the entire repository. After cloning, you can navigate to the DSA_Sheet directory as follows:
+```
+cd DS/DSA_Sheet
+```
 3. Open and solve the problems using your preferred language.
 4. Review the notes directly in this README to understand key concepts for each topic.
 ---
