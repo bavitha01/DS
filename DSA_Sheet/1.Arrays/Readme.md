@@ -12,7 +12,8 @@ This repository contains solutions to a collection of **array-related problems**
     - **Difficulty**: Medium
     - **File**: `Next_Permutation.py`
    ####
-   ![Next Permutation Example](Images/Arrays_1.png)
+<img src="Images/Arrays_1.png" width="100" />
+   
 2. 
 
 ---
