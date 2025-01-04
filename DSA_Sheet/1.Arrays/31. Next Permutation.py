@@ -19,6 +19,6 @@ class Solution(object):
         nums[pointer+1:]= reversed(nums[pointer+1:])
 solution = Solution()
 
-nums = [1, 2, 3]
+nums = [1,2,3]
 solution.nextPermutation(nums)
 print(nums)
