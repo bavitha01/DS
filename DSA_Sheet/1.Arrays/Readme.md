@@ -19,7 +19,7 @@ This repository contains solutions to a collection of **array-related problems**
    - **Difficulty**: Medium
    - **File**: `53. Maximum Subarray.py`
    ####
-<img src="Images/Arrays_2.png" width="100" />
+
 
 ---
 
