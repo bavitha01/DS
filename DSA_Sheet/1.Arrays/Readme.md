@@ -1,9 +1,4 @@
 
-# Array Problems and Solutions
-
-This repository contains solutions to a collection of **array-related problems**. Each solution is implemented in Python and optimized for performance and readability. The problems range from beginner to advanced levels, helping users improve their problem-solving skills in handling arrays.
-
----
 
 ## Problems Included
 
