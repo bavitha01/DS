@@ -20,5 +20,5 @@ class Solution(object):
                 max_profit = price - min_price
 
         return max_profit
-sol= Solution()
-print(sol.maxProfit([3,1,2,5,8]))
+Sol= Solution()
+print(Sol.maxProfit([3,1,2,5,8]))
