@@ -1,24 +1,20 @@
-class Solution(object):
-    def nextPermutation(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
-        """
-        l = len(nums)
-        if l<= 2:
-            return nums.reverse()
-        pointer = l - 2
-        while pointer >= 0 and nums[pointer] >= nums[pointer+1]:
-            pointer -= 1
-        if pointer == -1:
-            return nums.reverse()
-        for i in range(l - 1,pointer,-1):
-            if nums[pointer]<nums[i]:
-                nums[pointer], nums[i] = nums[i], nums[pointer]
-                break
-        nums[pointer+1:]= reversed(nums[pointer+1:])
-solution = Solution()
+class Solution:
+    def nextPermutation(self, nums: list[int]) -> None:
+        n = len(nums)
 
-nums = [1,2,3]
-solution.nextPermutation(nums)
-print(nums)
+        # From back to front, find the first number < nums[i + 1].
+        i = n - 2
+        while i >= 0:
+            if nums[i] < nums[i + 1]:
+                break
+            i -= 1
+
+        # From back to front, find the first number > nums[i], swap it with nums[i].
+        if i >= 0:
+            for j in range(n - 1, i, -1):
+                if nums[j] > nums[i]:
+                    nums[i], nums[j] = nums[j], nums[i]
+                    break
+        return nums
+Sol=Solution()
+print(Sol.nextPermutation([1,8,5,6]))
