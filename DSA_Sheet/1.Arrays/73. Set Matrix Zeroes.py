@@ -2,7 +2,7 @@ class Solution(object):
     def setZeroes(self, matrix):
         """
         :type matrix: List[List[int]]
-        :rtype: None Do not return anything, modify matrix in-place instead.
+        :rtype: None Don't return anything, modify matrix in-place instead.
         """
         r=len(matrix)
         c=len(matrix[0])
