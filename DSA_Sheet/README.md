@@ -7,7 +7,7 @@ A comprehensive collection of **Data Structures and Algorithms (DSA)** problems,
 For detailed notes and explanations on various DSA topics, you can visit  [DSA-Notes](https://sidduverse.notion.site/Data-Structures-Algorithms-9a106c93baf64af480e3dab18cf13ed3?pvs=4) prepared by  [Srinath Reddy](https://github.com/siddu015).
 
 ---
-## 🚧 Work in Progress
+## Work in Progress
 
 I'm currently working through the problems in Striver's SDE Sheet. This repository will be continuously updated with solutions as I progress. Feel free to follow along and contribute if you have better solutions or additional problems to solve!
 
@@ -48,7 +48,7 @@ The repository is organized into the following categories:
 
 ---
 
-## ✨ Features
+## Features
 - **Topic-based categorization:** Allows focused learning and targeted practice.
 - **Inspired by Striver's SDE Sheet:** A well-structured roadmap to crack coding interviews.
 - **Resource links:** Directly included in the README for each topic from the Notion page, to help with understanding and mastering DSA concepts. 
@@ -62,7 +62,7 @@ You can find the original sheet here: [Striver's SDE Sheet on Take U Forward](ht
 
 ---
 
-## 🚀 How to Use
+## How to Use
 1. To clone this repository to your local machine, use the following command:
 
 ```
@@ -86,6 +86,6 @@ Use the following checklist to track your progress. You can check off the boxes 
 - [ ] Graphs
 - [ ] Tries
 ---
-# Happy Coding! ✨🎉
+# Happy Coding! 
 
 Keep practicing, stay consistent, and you'll master DSA in no time! 💻🚀
